@@ -14,3 +14,13 @@ all code will be there!
 3. web相关
 
 
+
+尝试下：
+wiki 上的介绍：
+
+Markdown is a lightweight markup language with plain text formatting syntax. It's designed so that it can be converted to HTML and many other formats using a tool by the same name.
+
+作者：Allenware
+链接：https://www.jianshu.com/p/e0fc347f04e0
+來源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
