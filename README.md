@@ -20,3 +20,5 @@ wiki 上的介绍：
 
 Markdown is a lightweight markup language with plain text formatting syntax. It's designed so that it can be converted to HTML and many other formats using a tool by the same name.
 
+**重点**
+但我还是觉得内容才是重点，有了内容，才能更好的去调样式，不要在同一时间去做两件事！
