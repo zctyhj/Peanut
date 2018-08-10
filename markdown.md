@@ -64,6 +64,12 @@ hello[^hello]
 2. 内容 graph LR
 3. 两横线和箭头的使用
 
+1. TB（ top bottom）表示从上到下
+2. BT（bottom top）表示从下到上
+3. RL（right left）表示从右到左
+4. LR（left right）表示从左到右
+5. TD与TB一样表示从上到下
+
 ```mermaid
 graph LR;
 
