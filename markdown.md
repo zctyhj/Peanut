@@ -59,7 +59,19 @@ hello[^hello]
 ## 11. 下划线
 在空白行下方添加三条“-”横线。（前面讲过在文字下方添加“-”，实现的2级标题）
 
+## 流程图
+1. 格式 三个点加mermaid
+2. 内容 graph LR
+3. 两横线和箭头的使用
 
+```mermaid
+graph LR
+
+a -- link text -->B((Circle))
+
+B --> D
+C --> D
+```
  
 
  
