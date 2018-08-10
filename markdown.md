@@ -65,7 +65,7 @@ hello[^hello]
 3. 两横线和箭头的使用
 
 ```mermaid
-graph LR
+graph LR;
 
 a -- link text -->B((Circle))
 
