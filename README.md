@@ -22,3 +22,8 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 
 **重点**
 但我还是觉得内容才是重点，有了内容，才能更好的去调样式，不要在同一时间去做两件事！
+
+## 20180810
+今天我突然觉得有必要使用markdown ，毕竟有内容，调试样式很花时间，如果单纯只是稍加修改就能显示好的格式，漂亮的样式，何乐不为呢？
+这就是我今天想使用markdown 的原因
+
