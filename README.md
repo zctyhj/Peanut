@@ -32,3 +32,11 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 ## 项目管理专业认证
 
 为自己记录找了一个理由：学习最高效的方法就是教别人，这就是我记录我学习PMP的最好的理由之一
+
+
+# 可选文档编写
+1. python 环境安装文档
+2. python 基本常识文档
+3. PMP知识点总结文档
+4. PMP 每日练习文档
+5. markdown 学习文档
