@@ -1,4 +1,4 @@
-主要使用的命令
+﻿主要使用的命令
 git config --global user.name ""
 git config --global user.email ""
 git clone https://github.com/zctyhj/hj.git
@@ -7,3 +7,5 @@ git status
 git commit -m ""
 git push origin master
 
+username:1228735902@qq.com
+password:Hunter1228!
