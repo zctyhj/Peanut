@@ -27,3 +27,8 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 今天我突然觉得有必要使用markdown ，毕竟有内容，调试样式很花时间，如果单纯只是稍加修改就能显示好的格式，漂亮的样式，何乐不为呢？
 这就是我今天想使用markdown 的原因
 
+
+
+# 项目管理专业认证
+
+为自己记录找了一个理由：学习最高效的方法就是教别人，这就是我记录我学习PMP的最好的理由之一
