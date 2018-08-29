@@ -1,4 +1,4 @@
-# hj
+# 咫尺天涯    教别人学习是自己学习的最好方式
 all code will be here!
 
 
