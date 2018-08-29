@@ -13,21 +13,16 @@ all code will be here!
 
 3. web相关
 
+4. 工具相关
 
 
-尝试下：
+###  markdown 介绍
+> 尝试下：
 wiki 上的介绍：
-
 Markdown is a lightweight markup language with plain text formatting syntax. It's designed so that it can be converted to HTML and many other formats using a tool by the same name.
 
 **重点**
 但我还是觉得内容才是重点，有了内容，才能更好的去调样式，不要在同一时间去做两件事！
-
-## 20180810
-今天我突然觉得有必要使用markdown ，毕竟有内容，调试样式很花时间，如果单纯只是稍加修改就能显示好的格式，漂亮的样式，何乐不为呢？
-这就是我今天想使用markdown 的原因
-
-
 
 ## 项目管理专业认证
 
@@ -40,3 +35,19 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 3. PMP知识点总结文档
 4. PMP 每日练习文档
 5. markdown 学习文档
+6. 工作总结报告
+7. 个人工作进度计划
+
+
+
+## 更新日志
+### 20180810
+今天我突然觉得有必要使用markdown ，毕竟有内容，调试样式很花时间，如果单纯只是稍加修改就能显示好的格式，漂亮的样式，何乐不为呢？
+这就是我今天想使用markdown 的原因
+
+### 20180829
+> 尝试换种风格写文章，可以使用markdown  可以展示出来很好的视觉效果，我也很喜欢 
+也可以使用word  好处是可以使用标题，有很好的文档结构，很喜欢
+
+### 20180830
+> 添加了PMP 中的内容，让自己对知识积累有了更深的体验，也有了自己不是在浪费生命的感觉
