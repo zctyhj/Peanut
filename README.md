@@ -56,5 +56,5 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 > 添加了PMP 中的内容，让自己对知识积累有了更深的体验，也有了自己不是在浪费生命的感觉
 
 ### 20180831
-> 告诉自己，浪费时间等于在浪费生命！
+> 告诉自己，浪费时间等于在浪费生命！珍惜每一个还能做决定的瞬间
 
