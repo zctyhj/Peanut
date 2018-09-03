@@ -63,3 +63,8 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 我建议自己把所有的日志，格式都写成我现在的样子，好处就是显示好看，同时并不会让自己多花时间
 --> 修改句子 我建议日志格式写成markdown形式，好看且不花多余时间
 
+
+|姓名|阶段|完成度|日期|
+|-|-|-|
+|hunter huang|启动阶段|100%|2018年9月3日|
+
