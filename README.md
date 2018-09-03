@@ -65,6 +65,6 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 
 
 |姓名|阶段|完成度|日期|
-|-|:-|:-|
+|-|-|:-|-|
 |hunter huang|启动阶段|100%|2018年9月3日|
 
