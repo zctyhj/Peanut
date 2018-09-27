@@ -50,11 +50,11 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 
 # 2018 年给定的需要完成的目标
 
-- [] 追孔海平
+- [ ] 追孔海平
 - [x] 考驾照
-- [] 考PMP 拿证书
-- [] 挣5w块钱
-- [] 旅游
+- [ ] 考PMP 拿证书
+- [ ] 挣5w块钱
+- [ ] 旅游
 
 
 
