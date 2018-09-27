@@ -43,6 +43,18 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 5. markdown 学习文档
 6. 工作总结报告
 7. 个人工作进度计划
+* 项目文件
+* 总结文件
+* 计划文件
+* 个人简历
+
+# 2018 年给定的需要完成的目标
+
+- [] 追孔海平
+- [x] 考驾照
+- [] 考PMP 拿证书
+- [] 挣5w块钱
+- [] 旅游
 
 
 
