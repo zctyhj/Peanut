@@ -54,7 +54,7 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 - [x] 考驾照
 - [ ] 考PMP 拿证书
 - [ ] 挣5w块钱
-- [ ] 旅游
+- [x] 旅游
 
 
 
