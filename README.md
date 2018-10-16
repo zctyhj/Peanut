@@ -106,3 +106,7 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 
 ### 20181004
 > 时间过得很快，我不知道我做什么，心想我应该学点什么吧，就开始看PR  不知道我能不能看下去 ，这样想了，我就觉得我应该去读书馆看书。调整一下自己的生活方式。坚持看管理的数据，已经数据库方向的书籍
+
+### 20181016
+> 坚持就是胜利！
+
