@@ -51,12 +51,20 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 # 2018 年给定的需要完成的目标
 
 - [x] 追孔海平
-- [x] 考驾照
-- [ ] 考PMP 拿证书
-- [ ] 挣5w块钱
-- [x] 旅游
+- [x] 考驾照(2018年05月05日 完成)
+- [x] 考PMP 拿证书(2018年10月09日 完成)
+- [ ] 挣5w块钱，截止2018年10月17日，已经积累16k
+- [x] 旅游(2018年10月3日 黑山梯田  2018年06月16-17日 喜洲岛沙滩 2018年07月01日 英西峰林)
 
+完成了4项，进度在85%
 
+# 2019 年给定的需要完成的目标
+
+- [ ] 与孔海平订婚
+- [ ] 申请当项目经理
+- [ ] 积累资金10w
+- [ ] 旅游
+- [ ] 10w字的技术文档
 
 ## 更新日志
 ### 20180810
@@ -111,3 +119,6 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 > 坚持就是胜利！
 
 https://github.com/pandao/editor.md 计划学习这个markdown 编辑器组件
+
+### 20181017
+> 中午收到向刚还的1000元，收到因快递员没有送来快递而赔偿的49元。我转手就给孔大美女了
