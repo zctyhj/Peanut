@@ -65,6 +65,7 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 - [ ] 积累资金10w
 - [ ] 旅游
 - [ ] 10w字的技术文档
+- [ ] 去香港玩一次
 
 ## 更新日志
 ### 20180810
