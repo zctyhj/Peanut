@@ -29,21 +29,17 @@
 　　产出：能看出工作中用到脚本的优缺点，并能重构使其完善。再写篇文章总结。
  
 ## 进度表
+|姓名|阶段|完成度|日期|
+|-|-|-|-|
+|hunter huang|启动阶段|100%|2018年9月3日|
 
 |周|起止|内容|状态|备注|
-| ------------- |:-------------:|-----|-----|
-| 第一周 | 2016/9/19--2016/9/26 | LESSON 1: CREATINGYOUR FIRST SHELL SCRIPT
-LESSON 2: WORKING WITH VARIABLES AND PARAMETERS| 进行中| Ch7, Ch8, Ch11, Ch12, Ch13|
-| 第二周 | 2016/9/27--2016/10/3 |LESSON 3: TRANSFORMING INPUT 
-LESSON 4: USING ESSENTIAL EXTERNAL TOOLS | 未开始| 读书|
-| 第三周 | 2016/10/4--2016/10/11 | LESSON 5: USING CONDITIONAL STATEMENTS 
-LESSON 6: USING ADVANCED SCRIPTING OPTIONS | 未开始| 读书|
-| 第四周 | 2016/10/12--2016/10/19 | LESSON 7: SCRIPT DEBUGGING AND ANALYZING 
-LESSON 8: SCRIPTING BY EXAMPLE | 未开始| 读书|
-| 第五周 | 2016/10/20--2016/10/26 | LESSON 9: REVIEWING BASICS 
-LESSON 10: SCRIPTING BEST PRACTICES | 未开始| 读书|
-| 第六周 | 2016/10/27--2016/11/3 | LESSON 11: UNDERSTANDING SYNTAX DIFFERENCES 
-LESSON 12: USING ADVANCED AWK, SED, AND REGULAR EXPRESSIONS | 未开始| 读书|
-| 第七周 | 2016/11/4--2016/11/11 | LESSON 13: ANALYZING ADVANCED SCRIPTS 
-LESSON 14: WRITING A COMPLEX SCRIPT| 未开始| 读书|
+|:------:|:--------:|-----|-----|-|
+| 第一周 | 2016/9/19--2016/9/26 | | 进行中| Ch7, Ch8, Ch11, Ch12, Ch13|
+| 第二周 | 2016/9/27--2016/10/3 || 未开始| 读书|
+| 第三周 | 2016/10/4--2016/10/11 |  | 未开始| 读书|
+| 第四周 | 2016/10/12--2016/10/19 |  | 未开始| 读书|
+| 第五周 | 2016/10/20--2016/10/26 | | 未开始| 读书|
+| 第六周 | 2016/10/27--2016/11/3 |  | 未开始| 读书|
+| 第七周 | 2016/11/4--2016/11/11 | | 未开始| 读书|
 | 第八周 | 2016/11/12--2016/11/19 | READ THE SHELL SCRIPTS IN MY DAILY WORK | 未开始| 读书|
