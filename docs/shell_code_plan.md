@@ -1,0 +1,49 @@
+# Shell编程学习计划
+
+## 目标
+学会Shell编程，能读懂别人写的Shell脚本，能独立编写Shell脚本解决工作中的问题。
+
+## 缘由
+１. Shell编程是一门永不过时的技术(只要有机器,就不可避免)，是每个高效程序员都应该具备的基本技能。
+２. DevOps工作中，很多地方需要用到Shell脚本，学会它能大大提高工作效率。
+
+## 学习资料
+１．
+２．
+３．
+
+## 所需时间（2018/10/18--2019/12/19）
+学习过程分为三阶段，共计８周。
+
+### 第一阶段（１周）
+　　搭建学习环境、学会编写、调试基本的Shell脚本。
+　　产出：完成课后练习，写一篇文章总结所学知识。
+### 第二阶段（３周）
+　　学习Shell脚本语法，能编写复杂的脚本。
+　　产出：完成课后练习，写两篇文章总结所学知识。
+### 第三阶段（３周）
+　　学习Shell脚本高级知识和最佳实践。
+　　产出：完成课后练习，写三篇文章总结所学知识
+### 第四阶段（１周）
+　　阅读工作中遇到的Shell脚本，看看还有哪些知识点没有学到。
+　　产出：能看出工作中用到脚本的优缺点，并能重构使其完善。再写篇文章总结。
+ 
+## 进度表
+
+|周|起止|内容|状态|备注|
+| ------------- |:-------------:|-----|-----|
+| 第一周 | 2016/9/19--2016/9/26 | LESSON 1: CREATINGYOUR FIRST SHELL SCRIPT
+LESSON 2: WORKING WITH VARIABLES AND PARAMETERS| 进行中| Ch7, Ch8, Ch11, Ch12, Ch13|
+| 第二周 | 2016/9/27--2016/10/3 |LESSON 3: TRANSFORMING INPUT 
+LESSON 4: USING ESSENTIAL EXTERNAL TOOLS | 未开始| 读书|
+| 第三周 | 2016/10/4--2016/10/11 | LESSON 5: USING CONDITIONAL STATEMENTS 
+LESSON 6: USING ADVANCED SCRIPTING OPTIONS | 未开始| 读书|
+| 第四周 | 2016/10/12--2016/10/19 | LESSON 7: SCRIPT DEBUGGING AND ANALYZING 
+LESSON 8: SCRIPTING BY EXAMPLE | 未开始| 读书|
+| 第五周 | 2016/10/20--2016/10/26 | LESSON 9: REVIEWING BASICS 
+LESSON 10: SCRIPTING BEST PRACTICES | 未开始| 读书|
+| 第六周 | 2016/10/27--2016/11/3 | LESSON 11: UNDERSTANDING SYNTAX DIFFERENCES 
+LESSON 12: USING ADVANCED AWK, SED, AND REGULAR EXPRESSIONS | 未开始| 读书|
+| 第七周 | 2016/11/4--2016/11/11 | LESSON 13: ANALYZING ADVANCED SCRIPTS 
+LESSON 14: WRITING A COMPLEX SCRIPT| 未开始| 读书|
+| 第八周 | 2016/11/12--2016/11/19 | READ THE SHELL SCRIPTS IN MY DAILY WORK | 未开始| 读书|
