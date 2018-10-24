@@ -141,3 +141,5 @@ https://github.com/pandao/editor.md 计划学习这个markdown 编辑器组件
 ### 20181023
 > 昨晚去长隆游乐园玩了2个小时，那些项目倒是很刺激，不过排队也是相当久。累
 
+### 20181024
+> Just do what you love and believe in, and success will come naturally. 只要做你热爱和相信的事，成功自然就会到来。
