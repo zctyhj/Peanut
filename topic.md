@@ -1,15 +1,15 @@
 # 大数据主题研究
 
 ## 大数据处理技术
-第一讲 云计算及大数据处理技术介绍
-第二讲 Google的关键技术
-第三讲 Hadoop系统及HDFS
-第四讲 MapReduce计算模型设计
-第五讲 Pig 数据流处理工具
-第六讲 云数据仓库Hive
-第七讲 HBase和NoSQL
-第八讲 数据抽取工具Sqoop
-第九讲 Hadoop与其他云数据处理技术的融合
+第一讲 云计算及大数据处理技术介绍   
+第二讲 Google的关键技术   
+第三讲 Hadoop系统及HDFS   
+第四讲 MapReduce计算模型设计   
+第五讲 Pig 数据流处理工具   
+第六讲 云数据仓库Hive   
+第七讲 HBase和NoSQL   
+第八讲 数据抽取工具Sqoop   
+第九讲 Hadoop与其他云数据处理技术的融合   
 
 ## 大数据实时处理Spark
 第一讲 Spark大数据实时处理技术
