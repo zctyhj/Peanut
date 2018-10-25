@@ -145,4 +145,10 @@ https://github.com/pandao/editor.md 计划学习这个markdown 编辑器组件
 > Just do what you love and believe in, and success will come naturally. 只要做你热爱和相信的事，成功自然就会到来。
 2019年春节据今还有104天
 
+### 20181025
+> 总结了一下公司日常要做的事情
+1. 报工，考勤打卡，行内报工
+2. 月报
+3. 餐费补贴
+4. 评审
 
