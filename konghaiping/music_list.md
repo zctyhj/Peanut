@@ -18,3 +18,16 @@
 
 * 带你去旅行
 * 远走高飞
+
+
+爬取网易云音乐
+https://blog.csdn.net/qq_32511479/article/details/76281036?locationNum=6&fps=1
+
+Python3.7 爬虫（三）使用 Urllib2 与 BeautifulSoup4 爬取网易云音乐歌单
+https://blog.csdn.net/qq_21265915/article/details/69909861
+
+
+我想在这个周末写代码，下载一些歌曲，训练自己对代码的敏感度。同时，也可以将其作为工具节省自己的时间，给之后的计划一个保障
+我会为你留一个乐曲库，生成随机日期的歌单，并及时播放
+
+为亲爱的你，度过美好而愉悦的每一天
