@@ -157,3 +157,6 @@ https://github.com/pandao/editor.md 计划学习这个markdown 编辑器组件
 
 ### 20181026
 > 2019年春节据今还有102天
+https://github.com/taobao/nginx-book Nginx开发从入门到精通
+
+体会：看到这里，我发现写技术书籍的另外一个方式，那就是和最专业的人合作。
