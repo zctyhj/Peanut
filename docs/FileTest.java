@@ -21,7 +21,7 @@ public class FileTest {
 
 	/**
 	 * 需求：一个100M以下的文件 并且大于10M 分割成若干个文件 分析： 输入是个大文件 输出是多个文件 file 需要处理的大文件
-	 * filespath 保存分割文件的文件夹路径
+	 * filespath 保存分割文件的文件夹路径 20190302 亲测有效
 	 * 
 	 * @throws IOException
 	 */
