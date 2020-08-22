@@ -1,7 +1,7 @@
 ﻿主要使用的命令
 git config --global user.name ""
 git config --global user.email ""
-git clone https://github.com/zctyhj/hj.git
+git clone https://github.com/zctyhj/Peanut.git
 git add filename
 git status
 git commit -m ""
