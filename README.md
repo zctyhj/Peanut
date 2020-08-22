@@ -57,3 +57,5 @@ Markdown is a lightweight markup language with plain text formatting syntax. It'
 3. 必须是写文字
 4. 写成markdown形式
 
+# git shell 等使用
+添加shell编程的一些总结知识
