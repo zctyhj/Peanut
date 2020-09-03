@@ -6,3 +6,4 @@ ls | sed "s:^:`pwd`/:"
 ```
 echo "huangjin.txt" | cut -d'.' -f1
 ```
+
