@@ -17,4 +17,99 @@ Successfully
 #2020-09-03
 we can use shell script to do anything we want.
 
+#2020-09-04
+i want to deal with the data file quikly using shell script , not use excel. 
+so shell command will be used daily.
 
+本例以 Github 为例作为远程仓库，如果你没有 Github 可以在官网 https://github.com/注册。
+
+由于你的本地 Git 仓库和 GitHub 仓库之间的传输是通过SSH加密的，所以我们需要配置验证信息：
+
+使用以下命令生成 SSH Key：
+
+
+$ ssh-keygen -t rsa -C "1228735902@qq.com"
+
+$ ssh -T git@github.com
+
+
+$ git config --global user.name "zctyhj"
+$ git config --global user.email 1228735902@qq.com
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC+pLVpiTFaFFIdeLBhUZ9PemVcJvSGxa99Z5l6W5/tthBgrt8fnHJHdRVmQ9JUNxUj4VqYLLGqwe3O2lS5TIberdinZYODUiZvO97PAbXFUbFdx7XsYpT7tKnyUZboPw26QSYfQoTX6wyKQoJp2Zzpc+b/WWInhV2qnMfipI+McVzHHFMDuoe7mpwAC0UH2UMketnxfKUyjKr311k14D7gic0ZNqPBBZlJW3lKUVx9j9HxZeqYCuzqGdQKlzeMVOFAWVxMXlABLk6FoS1zQl31mp8VGAJURrzG4zPD00ovLp0Ii1rF3+mkFxNgOo7kmqySRCCIhsQO/1QGdy40cxqmgp6x4B1HHqAVfAAMHgw4mSUj9++ctWGbWICrhkT1t/YysKNw2cKVuuGsUNdXdx6tEM/aZvfdG766F8ZrVl6mUQNRf/jY0PX+rU1F4TmipzERpJ/5BxZkDZuHLyTVgoVxEsH42vwbFYVHpeQ+zScCnxBAzEOpmJPCUkv6l714yDs= 1228735902@qq.com
+
+
+
+20200815 测试之后，发现根本连接不上github，ping不动   
+20200822 重新弄之后，可以正常使用了。也许是网的问题，也许是密码错了。99%是密码错了
+
+个人理解git工作原理
+1. 相当于在本地操作的svn版本管理工具
+2. 从gui界面的svn到现在的git命令转换
+3. 将某个人的服务器当做中心服务器
+
+
+Git常用命令速查表
+
+master 默认开发分支   
+origin 默认远程版本库   
+Head 默认开发分支   
+Head^ Head 的父提交   
+
+创建版本库   
+$ git clone  <url>                  #<br>
+$ git init                          #<br>
+
+修改和提交<br>
+$ git status                        #查看状态<br>
+$ git diff                          #查看变更内容 <br>
+$ git add .                         #跟踪所有改动过的文件<br>
+$ git add <file>                    #跟踪指定的文件<br>
+$ git mv <old> <new>                #文件改名<br>
+$ git rm <file>                     #删除文件<br>
+$ git rm --cached <file>            #停止跟踪文件但不删除<br>
+$ git commit -m "commit message"    #提交所有跟更新过的文件<br>
+$ git commit --amend                #修改最后一次提交<br>
+
+查看提交历史<br>
+$ git log                <br>
+$ git log -p <file><br>
+$ git blame <file><br>
+
+撤销
+$ git reset --hard HEAD<br>
+$ git checkout HEAD <file><br>
+$ git revert <commit><br>
+
+分支和标签
+$ git branch<br>
+$ git checkout <branch/tag><br>
+$ git branch <new-branch><br>
+$ git branch -d <branch><br>
+$ git tag<br>
+$ git tag <tagname><br>
+$ git tag-d <tagname><br>
+
+合并和衍合<br>
+$ git merge <branch><br>
+$ git rebase <branch><br>
+
+远程操作
+$ git remote -v<br>
+$ git remote show <remote><br>
+$ git remote add <remote> <url><br>
+$ git fetch <remote><br>
+$ git pull <remote> <branch><br>
+$ git push <remote> <branch><br>
+$ git push <remote> :<branch/tag-name><br>
+$ git push --tags<br>
+
+
+
+
+
+https://github.com/sentsin/layui.git   
+git@github.com:sentsin/layui.git
+
+ 

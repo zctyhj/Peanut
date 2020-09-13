@@ -296,3 +296,107 @@ for file in $(ls *.sh)
 do  
 echo $file is file path \! ;  
 done 
+
+
+通用的命令
+
+1. ls 显示当前目录下所有的文件和文件夹
+2. pwd 显示当前的工作目录
+3. cd 切换工作目录
+4. `>` 输出重定向
+5. `>>` 输出重定向
+6. cat 查看或者合并文件内容
+7. head 查看文件
+8. tail 查看文件
+9. less 查看文件
+10. more 分屏显示
+11. wc 一次显示文件行数、字节数、文件名信息
+12. `|` 管道
+13. echo 输出内容
+14. clear 清除终端上的显示
+15. mkdir 创建一个新的目录
+16. touch 创建一个新的普通文件
+17. rmdir 删除一个空目录
+18. rm 删除文件或目录，删除的文件不能恢复
+19. cp 将给出的文件或目录复制到领一个文件或目录中
+20. mv 移动文件或目录（重命名）
+21. ln 建立链接文件（软链接ln -s src target）
+22. grep 文本搜索，强大的文本搜索工具
+23. find 查找文件
+24. which 查看命令位置
+25. tar 归档管理，把一系列文件归档到一个大文件中
+26. gzip 和tar命令一起实现文件打包、压缩
+27. bzip2 tar与该命令结合使用实现文件打包
+28. zip unzip 通过zip压缩文件的目标文件不需要指定扩展名，默认为zip
+29. gedit    Linux环境下的文本编辑器，类似windows的写字板程序，图形化界面
+30. vi 编辑器的使用方法
+
+31. whoami 查看当前系统当前账号的用户名，cat /etc/passwd 查看信息
+32. who 查看当前所有登录系统的用户信息
+33. exit 退出
+34. useradd 添加用户账号
+35. passwd 设置修改用户口令
+36. userdel 删除用户
+37. su 切换用户
+38. cat /etc/group 查看用户组
+39. groupadd 新建组账号
+40. groupdel 删除组账号
+41. usermod 修改用户所在组
+42. 为新建的普通用户添加sudo权限 /ect/sudoers
+43. chmod 修改文件权限
+44. chown 修改文件所有者
+45. chgrp 修改文件所属组
+46. cal 查看当前日历
+47. date 显示或设置时间
+48. ps 查看进程信息
+49. top 动态显示进程
+50. kill 终止进程
+51. reboot 关机重启  shutdown init
+52. df 检测文件系统的磁盘空间占用和空余情况
+53. du 检测目录所占磁盘空间，侧重于磁盘的使用情况
+54. ifconfig 显示或修改网卡信息
+55. ping 测试远程主机的连通性
+56. wget  下载命令  
+57. curl 下载命令
+
+
+
+需要特别注意的目录
+/bin 存放大多是系统命令，如cat mkdir mv cp tar等   
+/boot 存放开机所需的文件，开机时载入开机管理程序（bootloader），并映射到内存中   
+/dev 存放设备的文件，如disk，dvd，hdc，stdin等   
+/etc 存放绝大多数Linux系统引导所需的配置文件   
+/home 存放用户账号，系统管理员添加用户是，在此目录下创建并默认有Desktop目录   
+/lib 存放系统程序文件，包含C编译程序需要的函数库，是一组二进制文件   
+/mnt 常用挂载点，专门外挂文件系统的   
+/opt 第三方程序安装目录   
+/proc 存放记录系统状态的文件   
+/root 管理员目录，存放Desktop等   
+/sbin 超级管理员专用目录，包含一些重要的命令，如shutdown   
+/tmp 临时文件，用于临时性存储，存在中间产生的临时文件   
+/usr 包含其他一些重要内容   
+/var 存放系统定义表，以便在系统运行改变时备份目录   
+
+
+
+tar解压命令
+解压
+tar –xvf file.tar //解压 tar包
+tar -xzvf file.tar.gz //解压tar.gz
+tar -xjvf file.tar.bz2 //解压 tar.bz2
+tar –xZvf file.tar.Z //解压tar.Z
+unrar e file.rar //解压rar
+unzip file.zip //解压zip
+
+总结
+1、.tar 用 tar –xvf 解压
+2、.gz 用 gzip -d或者gunzip 解压
+3、.tar.gz和.tgz 用 tar –xzf 解压
+4、.bz2 用 bzip2 -d或者用bunzip2 解压
+5、.tar.bz2用tar –xjf 解压
+6、.Z 用 uncompress 解压
+7、.tar.Z 用tar –xZf 解压
+8、.rar 用 unrar e解压
+9、.zip 用 unzip 解压
+
+

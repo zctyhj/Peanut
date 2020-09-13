@@ -1,0 +1,25 @@
+# 大数据学习之路 推荐书单
+- Hadoop权威指南
+- Hadoop技术内幕：深入解析Hadoop Common和HDFS
+- Spark技术内幕
+- Hadoop技术内幕：Yarn
+- Spark大数据处理技术
+- Hive编程指南
+- Hbase企业级实战
+- Storm分布式实时计算模式
+- 从paxos到zookeeper分布式一致性协议
+- Kafka源码剖析
+- 数据仓库
+- Java编程思想（部分章节）
+- Java并发编程实战
+- 深入理解java虚拟机
+- Java消息服务
+- Linux高性能服务器编程
+- Linux内核设计与实现
+- 统计学习方法
+- 机器学习实战
+- 大话设计模式
+- 大型网站技术架构
+- memcache全面剖析
+- 快学Scala
+- 剑指offer
