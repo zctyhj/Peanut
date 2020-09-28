@@ -7,10 +7,6 @@ main program
 author : hunter huang
 date   : 20200926
 
-update : add event for TextCtrl when text change. it will run time to update the status while we edit the text or coding.
-date   : 20200928
-
-
 # https://pypi.doubanio.com/simple/
 # wxPython
 '''
@@ -35,7 +31,14 @@ class FirseFrame(wx.Frame):
 
     def textChage(self, event):
         # print(event)
-        print(self.contents.GetValue())
+        print(self.contents.GetInsertionPoint())
+        print(self.contents.PositionToXY(1))
+        print("xy position is : "+str(self.contents.PositionToXY(self.contents.GetLastPosition())))
+
+        print("行数是 ： " + str(self.contents.PositionToXY(self.contents.GetLastPosition())[2] + 1))
+        print("列数是 ： " + str(self.contents.PositionToXY(self.contents.GetLastPosition())[1] + 1))
+        print("last Position is : "+str(self.contents.GetLastPosition()))
+        # print(self.contents.GetValue())
 
     def OnKeyDown(self, event):
         keycode = event.GetKeyCode()
@@ -57,8 +60,8 @@ class FirseFrame(wx.Frame):
         # print('鼠标移动')
         if event.Dragging() and event.LeftIsDown():
             # 鼠标正在移动，按左键移动
-            # pos = event.GetPosition(self)  # 取出位置
-            # print(pos)
+            pos = event.GetPosition(self)  # 取出位置
+            print(pos)
             pass
 
     def InitUI(self):
