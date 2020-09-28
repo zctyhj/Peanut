@@ -7,6 +7,10 @@ main program
 author : hunter huang
 date   : 20200926
 
+update : add event for TextCtrl when text change. it will run time to update the status while we edit the text or coding.
+date   : 20200928
+
+
 # https://pypi.doubanio.com/simple/
 # wxPython
 '''
