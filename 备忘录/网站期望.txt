@@ -1,0 +1,110 @@
+网站期望
+1. 专注于博客内容，能显示出来即可
+2. 搭建基础软件，有步骤有脚本
+3. 维护网站时间尽可能的少
+4. 博客内容坚持原创
+5. 简历模板 让别人知道我
+
+db2 使用的优点总结
+考虑方向
+1. 数据库安全性
+2. 查询性能
+3. 存储量
+4. 写入速度  带宽
+5. 读取带宽
+6. 稳定性
+
+
+工作重心
+1. 监控生产跑批任务正常进行
+2. 根据开发单需求，分析调研需求范围，设计开发作业，单元测试，配合联调测试，编写交付文档，上线部署
+3. 根据抽数单需求，分析调研数据提取范围，开发取数脚本，编写交付文档，取数后分析问题或者重新取数
+4. 根据保障单需求，分析生产作业问题，提出解决方案并实施执行
+5. 配合其他部门的工作任务，完成联调测试
+6. 注意事项有
+注意和甲方的关系
+注意数据的拆分，不同地市的数据要分开
+生产部署确保质量，不能报错
+注意⚠开发单不能延期
+️汇报工作注意简洁有条理有重点
+
+
+
+作业属性
+开始时间   结束时间  一般用时  数据量大小    作业前依赖   作业后续依赖   作业描述   数据来源   数据使用者   
+
+
+服务器：
+1. 自动获取数据，并下载的脚本，本地可以获取该数据或许更好
+2. 部署网站，并且设置一下自动发布内容，比如类似个人说说
+3. 学习Linux命令和编写Shell脚本
+
+
+服务器初始化
+1.创建新用户，记录root用户账号密码，添加新用户的账号密码，并给予权限
+2.安装常用软件，Python MySQL DB2 Nginx等
+3.拷贝数据，脚本，以及设置定时器，每天抽数
+4.复制一个博客网站到该服务器
+
+新建用户
+adduser： 会自动为创建的用户指定主目录、系统shell版本，会在创建时输入用户密码。
+useradd：需要使用参数选项指定上述基本设置，如果不使用任何参数，则创建的用户无密码、无主目录、没有指定shell版本。
+
+root/Huangjin1228
+
+hunter/hunter123
+
+
+
+
+0 0 * * * sh /home/huang/data/day_mkdir.sh
+0 1-23/1 * * * sh /home/huang/data/down_data.sh
+5 1-23/1 * * * sh /home/huang/data/down_shgold.sh
+35 23 * * * sh /home/huang/ods/testdb.sh
+
+nohup wget https://www.python.org/ftp/python/3.7.2/Python-3.7.2.tgz &
+
+apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev
+
+ln -s /usr/local/bin/python3.7 /usr/bin/python
+
+0：标准输入流 stdin
+1：标准输出流 stdout
+2：标准错误流 stderr
+
+
+nohup wget https://iwm.dhe.ibm.com/sdfdl/v2/regs2/db2pmopn/Express-C/DB2ExpressC11/Xa.2/Xb.aA_60_-i7xG42x7rZcj9irKm9qfC4e8JXlT1bnFk_tk/Xc.Express-C/DB2ExpressC11/v11.1_linuxx64_expc.tar.gz/Xd./Xf.LPr.D1vk/Xg.9927581/Xi.swg-db2expressc/XY.regsrvs/XZ.RNzclAYCV6lTKjleviVov4YXSbA/v11.1_linuxx64_expc.tar.gz &
+
+
+
+
+
+
+scp root@www.runoob.com:/home/root/others/music /home/space/music/1.mp3
+
+scp ubuntu@106.52.241.85:/home/ubuntu/v11.5_linuxx64_dec.tar.gz /home/huang/
+v11.5_linuxx64_dec.tar.gz
+Python-3.7.2.tgz
+nginx-1.15.9.tar.gz
+/home/ubuntu/
+
+
+4、后台运行
+一般，我们拷贝的文件都很大，想让scp在后台运行。通常我们要建立ssh 信任关系。即不输入密码就能拷贝，但是通常情况下这样的条件不能满足。可以用下面的方法来实现后台运行scp：
+4.1  scp remote_username@remote_ip:remote_file local_folder  4.2 输入密码，回车。  4.3 Ctrl+z，挂起当前进程。  4.4 bg，让挂起的进程继续运行。  
+当然你也可以使用下面的命令查看后台任务或者将任务切换到前台：
+
+# jobs      //查看任务，返回任务编号n和进程号
+# bg  %n   //将编号为n的任务转后台运行
+# fg  %n   //将编号为n的任务转前台运行
+# ctrl+z    //挂起当前任务
+# ctrl+c    //结束当前任务
+
+
+sudo apt-get install zlib1g-dev libbz2-dev libssl-dev libncurses5-dev libsqlite3-dev libreadline-dev tk-dev libgdbm-dev libdb-dev libpcap-dev xz-utils libexpat1-dev liblzma-dev libffi-dev libc6-dev
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+(20200116 证实不可以下载了)
+下载db2 实例
+wget -b https://iwm.dhe.ibm.com/sdfdl/v2/regs2/db2pmopn/Express-C/DB2ExpressC11/Xa.2/Xb.aA_60_-i7xG34B0tHw7_ngYafImEZ3MhGuRQTTMY6CU/Xc.Express-C/DB2ExpressC11/v11.1_linuxx64_expc.tar.gz/Xd./Xf.LPr.D1vk/Xg.10220562/Xi.swg-db2expressc/XY.regsrvs/XZ.J8lM8bNY891w3F-ecHAC5Hawuts/v11.1_linuxx64_expc.tar.gz
+安装的步骤可查网页博客
+
+wget -b https://iwm.dhe.ibm.com/sdfdl/v2/regs2/db2pmopn/db2_v111_devc/Xa.2/Xb.MmcrqOJZXZWyv1VWXrnp71mKfICHnLfgHOGUzKnSV1Y/Xc.db2_v111_devc/v11.5_linuxx64_dec.tar.gz/Xd./Xf.LPr.D1vk/Xg.10544402/Xi.mrs-db2devcdbsrv/XY.regsrvs/XZ.tshhkGEtEjyeB_IgEiVbWH2duJk/v11.5_linuxx64_dec.tar.gz
+
+(20201110 证实又不可以下载了)
+
+
+hunter huang
+
+创建实例
+/opt/ibm/db2/V11.5/instance
+ ./db2icrt -p 50000 -u db2fenc1 db2inst1
+
+
+export PATH=$PATH:.$HOME/bin:/home/db2inst1/sqllib/bin
+if [ -f /home/db2inst1/sqllib/db2profile ]
+then
+source /home/db2inst1/sqllib/db2profile
+fi
+
+db2 connect to sample
+
+   Database Connection Information
+
+ Database server        = DB2/LINUXX8664 11.1.4.4
+ SQL authorization ID   = DB2INST1
+ Local database alias   = SAMPLE
+
+
+cd /opt/ibm/db2/V11.5/instance/
+./db2icrt -p 50000 -u db2fenc1 db2inst1
+
+db2 connect to sample
+db2 "select * from staff"
+
+赋权
+db2 grant all on table ods.test1 to user huang
+
+db2 list tables for all 列出当前数据库下所有的表 
+
+特权的信息存储在七个系统编目视图中：
+
+*SYSCAT.DBAUTH - 数据库特权
+
+*SYSCAT.COLAUTH - 表和视图列特权
+
+*SYSCAT.INDEXAUTH - 索引特权
+
+*SYSCAT.PACKAGEAUTH - 包特权
+
+*SYSCAT.SCHEMAAUTH - 模式特权
+
+*SYSCAT.TABAUTH - 表和视图特权
+
+*SYSCAT.TBSPACEAUTH - 表空间特权
+
+db2setDB2_GRP_LOOKUP=LOCAL,TOKENLOCAL
+
+
+
+
+chmod 777 /etc/sudoers
+
+chmod 440 /etc/sudoers
+
+
+安装db2 遇到的问题
+
+Validating "32 bit version of "libstdc++.so.6" " ...
+   Found the 64 bit "/usr/lib/x86_64-linux-gnu/libstdc++.so.6" in the following directory "/usr/lib/x86_64-linux-gnu".
+DBT3514W  The db2prereqcheck utility failed to find the following 32-bit library file: "libstdc++.so.6".
+
+Validating "/lib/i386-linux-gnu/libpam.so*" ...
+   DBT3514W  The db2prereqcheck utility failed to find the following 32-bit library file: "/lib/i386-linux-gnu/libpam.so*".
+   WARNING : Requirement not matched.
+Requirement not matched for DB2 database "Server" . Version: "10.1.0.0".
+Summary of prerequisites that are not met on the current system:
+   DBT3514W  The db2prereqcheck utility failed to find the following 32-bit library file: "/lib/i386-linux-gnu/libpam.so*".
+
+
+安装db2 需要的依赖包
+
+root@db01:/usr/local/db2/expc# apt-get install lib32stdc++6
+
+root@db01:/usr/local/db2/expc# apt-get -f install libaio1
+
+root@db01:/usr/local/db2/expc# apt-get -f install libpam0g:i386
+
+
+db2prereqcheck
+
+20201110 证实ok
+
+
+
+
+db2_install
+
+Install into default directory (/opt/ibm/db2/V11.5) ? [yes/no]
+
+
+-f sysreq
+
+./db2_install -f sysreq
+
+
+
