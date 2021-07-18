@@ -107,4 +107,55 @@ Install into default directory (/opt/ibm/db2/V11.5) ? [yes/no]
 ./db2_install -f sysreq
 
 
+db2数据表分区
+1.表分区说明
+在db2数据库中，可对数据表按某个字段进行分区，分区好处是：可扩展表的存储能力、对于大量数据表使用分区字段可提高查询效率。表分区不同于数据库分区，需要在创建表的时候设置分区逻辑。
+
+在定义表分区的字段时，有几个原则：1.不支持创建只包含长数据类型的多分区表，2.不能改变分区键定义，3.分区键应该包含最频繁连接的列，4.分区键应该由经常参与group by字句的组成，
+5.任何主键或唯一键必须包含分区列
+
+2.创建表分区
+在DB2V10.5进行操作。在创建表时设置分区的列，并设定分区的字段范围，以varchar类型的字段
+创建表分区
+sql如下：
+
+复制代码
+CREATE TABLE TABLE_TEST_HAOTD(
+    DATADATE VARCHAR(8) NOT NULL,
+DATA1 VARCHAR(10),
+DATA2 VARCHAR(10)
+)
+PARTITION BY RANGE(DATADATE)
+(PART "DATAMIN" STARTING(MINVALUE) ENDING('20180101') EXCLUSIVE IN "DATA_TBS_8K",
+PART "P20180101" STARTING('20180101') ENDING('20180102') EXCLUSIVE IN "DATA_TBS_8K")
+复制代码
+上SQL中，对表TABLE_TEST_HAOTD按DATADATE创建了按日期天分区：小于20180101的和20180101的两个分区
+
+3.
+添加分区与删除分区
+表在创建分区时可创建完全部分区，也可以后续添加分区，若一次性把所有分区创建完则后续无法继续添加分区，继续添加其他日期分区SQL如下：
+
+ALTER TABLE TABLE_TEST_HAOTD ADD PARTITION "P20180102" STARTING '20180102' ENDING '20180103' exclusive IN DATA_TBS_8k;
+ALTER TABLE TABLE_TEST_HAOTD ADD PARTITION "P20180103" STARTING '20180103' ENDING '20180104' exclusive IN DATA_TBS_8k;
+ALTER TABLE TABLE_TEST_HAOTD ADD PARTITION "P20180104" STARTING '20180104' ENDING '20180105' exclusive IN DATA_TBS_8k;
+ALTER TABLE TABLE_TEST_HAOTD ADD PARTITION "P20180105" STARTING '20180105' ENDING '20180106' exclusive IN DATA_TBS_8k;
+分区是无法直接删除，先卸载分区，再进行drop操作
+
+ALTER TABLE TABLE_TEST_HAOTD  DETACH PARTITION P20180101 INTO TABLE TMP_TESTHAOTD_P20180101
+再进行删除操作（上述SQL执行是若表TMP_TESTHAPTD_P20180101存在会报错）
+
+DROP TABLE TMP_HAOTDTEST_P20180101
+需要注意的是：DETACH操作是异步的，所以执行卸载后立马执行删除操作容易出现删除失败
+
+查询表已建分区情况：
+SELECT * FROM SYSCAT.DATAPARTITIONS
+WHERE TABNAME = '表名称'
+
+4.问题说明
+添加分区时若出现下面报错：
+DB21034E
+The command was processed as an SQL statement because it was not a valid Command Line Processor command.During SQL processing it returned: SQL0636N
+Range specified for data partition "PXXXX" is not valid.Reason code="10".SQLSTATE=56016
+
+上面错误是分区创建完毕，无法添加新的分区，需要检查分区的创建是否重复
 
