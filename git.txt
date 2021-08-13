@@ -112,4 +112,26 @@ $ git push --tags<br>
 https://github.com/sentsin/layui.git   
 git@github.com:sentsin/layui.git
 
+法一：
+git remote -v                               //查看远程仓库
+git fetch origin [branch]                   //从远程获取最新版本branch到本地branch
+git log -p [branch].. origin/[branch]       //比较本地的仓库和远程参考的区别,这里也可以使用可视化工具进行对比,meld bcompare(前者是windows,后者linux)
+git merge origin/[branch]                   //把远程下载下来的代码合并到本地仓库
  
+例子：
+git remote -v                               //查看远程仓库
+git fetch origin master                     //从远程的origin仓库的master分支下载代码到本地的origin master               
+git log -p master.. origin/master           //比较本地的仓库和远程master的区别      
+git merge origin/master                     //把远程下载master分支代码合并到本地仓库
+ 
+ 
+法二：//从远程获取最新版本到新建本地临时tmp
+git fetch origin [branch]:[new_branch]      //从远程获取最新版本到本地
+git diff [new_branch]                       //比较本地的仓库和远程参考的区别
+git merge [new_branch]                      //合并new_branch分支到branch分支
+git branch -d [new_branch]                  //删除本地分支new_branch
+ 
+git fetch origin master:temp                //从远程获取master最新版本到本地新分支temp 
+git diff temp                               //比较本地的仓库temp和远程master的区别
+git merge temp                              //合并temp分支到master分支
+git branch -d temp                          //删除本地分支temp
