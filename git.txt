@@ -107,9 +107,6 @@ $ git push --tags<br>
 
 
 
-
-test again
-
 https://github.com/sentsin/layui.git   
 git@github.com:sentsin/layui.git
 
